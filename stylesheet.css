@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    color: #424244;
+}
+
+header {
+    width: 30%;
+    background: whitesmoke;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.6em;
+    color: #696966;
+}
+
+.contact-options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-options li {
+    margin: 20px 0;
+    color: #696966;
+}
+
+.contact-options li a {
+    color: #696969;
+    text-decoration: none;
+}
+
+.contact-options li a:visited {
+    color: #696969;
+}
+
+/* END OF HEADER STYLINGS */
+
+.resume {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+}
