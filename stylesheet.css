@@ -10,12 +10,17 @@ body {
 
 header {
     width: 30%;
-    background: whitesmoke;
     height: 100vh;
+    background: #0909091a;
     box-sizing: border-box;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 header h1 {
@@ -58,5 +63,57 @@ header p {
 .resume {
     width: 70%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 60px;
+    margin-left: 30%;
+}
+
+.section-heading {
+    background: #0909091a;
+    padding: 10px;
+    font-weight: 500;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(248, 92, 92);
+}
+
+.resume section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume section,
+.resume section p {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #424242;
+/*    font-weight: 400 */
+}
+
+.education-main h3, 
+.experience-main h3 {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    font-weight: 300;
+}
+
+#border-bottom {
+    width: 54%;
+    border-bottom: 2px solid rgb(240, 153, 153);
+    padding: 0 0 20px 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skill-list li {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.experience li {
+    padding: 10px;
 }
